@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+*{
+ box-sizing: inherit;   
+}
+
+/* container */
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.content-area {
+    width: 1174px;
+    margin: 0 auto;
+}
+
+.container footer {
+width: 100%;
+height: 208px;
+background-color: #2d2d2d;
+}
+
+.container .container__content {
+width: 100%;
+height: auto;
+min-height: 50vh;
+}
+/* header */
+header {
+    width: 100%;
+    height: 178px;
+    }
+
+    header .header_content {
+        height: 208px;
+    }
+
+    header .header_content .logo {
+     width: auto;
+     height: 47px;
+     margin-top: 74px;
+     float: left;  
+ }
+ header .header_content .logo img{
+     height: 47px;
+ }
+
+ header .header_content .nav {
+    height: 47px;
+    margin-top: 74px;
+    float: right;
+}
+
+/* head slogan */
+.head-slogan {
+    width: 100%;
+    height: 208px;
+    background-color: #F1F4F5;
+}
+.head-slogan .content {
+    padding-top: 68px;
+}
+
+.head-slogan .content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+     line-height: 40px;
+     margin-top: 0;
+     margin-bottom: 10px;
+     color:#4d4d4d;
+}
+
+.head-slogan .content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+     line-height: 30px;
+     color: #808080;
+}
+
+/* gallery */
+.gallery {
+    height: 1206px;
+    background-color: indigo;
+}
+
+/* project */
+.project {
+    height: 520px;
+    background-color: lawngreen;
+}
+
+/* news */
+.news {
+    height: 690px;
+    background-color: blue;
+}
